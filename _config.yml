@@ -1,0 +1,9 @@
+# Site settings
+title: Kyoto CSS Workshop
+email: mathieu.mayermazzoli@gmail.com
+description: "Kyoto CSS Workshops is a group for people who want to learn how to really and effectively design in the browser."
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown

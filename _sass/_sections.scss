@@ -1,0 +1,54 @@
+section {
+  margin: 5rem 0;
+}
+
+.section {
+  @include display(flex);
+  @include align-items(flex-start);
+  &-aside {
+    @include display(flex);
+    width: 30%;
+  }
+  &-content {
+    width: 70%;
+  }
+}
+
+.intro {
+  @include flex-direction(column);
+}
+
+.about {
+  margin-bottom: -2rem;
+  &-picture {
+    @include filter(grayscale(100%) contrast(120%));
+    max-width: 75%;
+  }
+  &-bio {
+    position: relative;
+    top: -5rem;
+    left: 5rem;
+    max-width: 80%;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.20);
+    z-index: 2;
+  }
+}
+
+.learn-list {
+  @extend %reset-list;
+  width: 60%;
+  &-item {
+    margin-bottom: 2rem;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  h4 {
+    margin-bottom: 6px;
+  }
+  p {
+    margin-top: 0;
+  }
+}

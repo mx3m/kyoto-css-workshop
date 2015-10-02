@@ -1,0 +1,39 @@
+body {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 18px;
+}
+
+a {
+  color: white;
+  background-color: blue;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+code {
+  &:first-child {
+    margin-top: 0;
+  }
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+p,
+li {
+  line-height: 1.65;
+}
+
+.section-copy {
+  width: 70%;
+  margin-left: auto;
+  font-size: 180%;
+  line-height: 2;
+}
+

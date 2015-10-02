@@ -1,0 +1,28 @@
+.site-header {
+  @include display(flex);
+  @include align-items(flex-start);
+  &-title {
+    @include display(flex);
+    @include flex-direction(column);
+    @include justify-content(flex-end);
+    width: 100%;
+    max-width: 530px;
+    height: 400px;
+    border: 12px solid blue;
+    word-wrap: nowrap;
+    white-space: nowrap;
+  }
+  &-button {
+    margin-left: auto;
+  }
+}
+
+.site-title {
+  position: relative;
+  padding-left: 2rem;
+  padding-bottom: 1.50rem;
+  font-size: 70px;
+  font-weight: bolder;
+  line-height: 1.2;
+  margin: 0;
+}
