@@ -2,7 +2,7 @@
 title: Kyoto CSS Workshop
 email: mathieu.mayermazzoli@gmail.com
 description: "Kyoto CSS Workshops is a group for people who want to learn how to really and effectively design in the browser."
-baseurl: "http://mx3m.github.io" # the subpath of your site, e.g. /blog/
+baseurl: "/kyoto-css-workshop/" # the subpath of your site, e.g. /blog/
 url: "http://mx3m.github.io/kyoto-css-workshop/" # the base hostname & protocol for your site
 
 # Build settings
