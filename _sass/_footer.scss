@@ -2,8 +2,11 @@
 .site-footer {
   text-align: center;
   p {
-    font-size: 250%;
+    font-size: 2.50em;
     margin-bottom: 3rem;
+    @include breakpoint(xs) {
+      font-size: 2em;
+    }
   }
   .button {
     font-size: 250%;

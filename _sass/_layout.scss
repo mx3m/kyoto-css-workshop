@@ -9,6 +9,10 @@
   width: 95%;
   max-width: 1440px;
   margin: 2rem auto;
+  @include breakpoint(xs) {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
 }
 
 img {
