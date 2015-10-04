@@ -35,14 +35,17 @@ section {
   }
   &-picture {
     @include filter(grayscale(100%) contrast(120%));
+    max-width: 90%;
+    margin-left: 10%;
     @include breakpoint(sm) {
       max-width: 75%;
+      margin-left: 0;
     }
   }
   &-bio {
     position: relative;
     top: -2.50rem;
-    max-width: 100%;
+    max-width: 90%;
     margin-right: 1rem;
     padding: 2em;
     background-color: white;
