@@ -9,13 +9,9 @@
     @include display(flex);
     @include flex-direction(column);
     @include justify-content(flex-end);
-    width: 100%;
-    max-width: 532px;
-    padding-left: 1rem;
     border-left: 12px solid $color-primary;
     @include breakpoint(md) {
       padding: 0;
-      height: 420px;
       word-wrap: nowrap;
       white-space: nowrap;
       border: 12px solid $color-primary;
@@ -34,11 +30,14 @@
   margin: 0;
   font-size: 3em;
   font-weight: bolder;
-  line-height: 1.2;
+  padding: 0 1.25rem;
+  background: -webkit-linear-gradient(right, #0000ff, #fd2cf9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   @include breakpoint(md) {
+    padding: 0 3rem;
     font-size: 4.25em;
-    padding-left: 2rem;
-    padding-bottom: 1.50rem;
+    line-height: 3em;
   }
   @include breakpoint(sm) {
     word-wrap: nowrap;

@@ -25,6 +25,9 @@
     width: 100%;
     height: 3em;
     line-height: 3em;
+    @include breakpoint(sm) {
+      width: 50%;
+    }
     &:active {
       @include transform(scale(0.98));
     }
