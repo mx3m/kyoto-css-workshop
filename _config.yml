@@ -1,7 +1,7 @@
 # Site settings
 title: CSS Kyoto
 email: mathieu.mayermazzoli@gmail.com
-description: "CSS Kyoto is a group for people who want to learn how to really and effectively design in the browser."
+description: "A series of workshops in Kyoto, Japan for people who want to learn how to design with CSS."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://csskyoto.com" # the base hostname & protocol for your site
 
