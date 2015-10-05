@@ -31,7 +31,9 @@
   font-size: 3em;
   font-weight: bolder;
   padding: 0 1.25rem;
-  color: $color-primary;
+  background: -webkit-linear-gradient(left, #0000ff, #f2248c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   @include breakpoint(md) {
     padding: 0 3rem;
     font-size: 4.25em;
